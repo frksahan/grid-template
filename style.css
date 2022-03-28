@@ -4,6 +4,7 @@
     position: relative;
     margin: auto;
     gap: 10px;
+    grid-template-areas: "header header" "nav nav " "left right" "footer footer";
 }
 
 h1,
@@ -14,6 +15,7 @@ h2 {
 
 header {
     background-color: dodgerblue;
+    grid-area: header;
 }
 
 nav {
